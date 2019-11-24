@@ -1,3 +1,7 @@
+---
+permalink: "/accessibility/"
+---
+
 ## Accessibility Mapping Tool
 
 #### *Creation of an interactive public tool for generating accessibility maps*

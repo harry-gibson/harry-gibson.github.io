@@ -8,7 +8,7 @@ permalink: "/pages/gapfilling"
 
 The geostatistical models of malaria developed in the Malaria Atlas Project require a wide range of covariate datasets in the form of raster data (images), to link to the locations for which we have malaria data and then use to make predictions elsewhere.
 
-<img src="../images/gapfilling/modis_globe_evi_AF_white.png?raw=true"/>
+<img src="../images/gapfilling/modis_globe_evi_AF_circle.png?raw=true"/>
 
 In order to create continuous surfaces of predicted malaria burden (i.e. without gaps), we need covariate datasets that are also without gaps. Unfortunately remotely sensed data often have a *lot* of gaps, primarily caused when the satellite cannot "see" the ground due to cloud cover.
 

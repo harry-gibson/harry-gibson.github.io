@@ -8,8 +8,8 @@
 <img src="images/accessibility/access-mapper.PNG?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Mapping paddy rice growth in Google Earth Engine](_pages/rice)
+<img src="images/rice/rice_crop.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)

@@ -12,8 +12,8 @@
 <img src="images/rice/rice_crop.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Gapfilling planetary-scale raster datasets](/pages/gapfilling)
+<img src="images/gapfilling/tsi_lst_gapfilled.png?raw=true"/>
 
 ---
 

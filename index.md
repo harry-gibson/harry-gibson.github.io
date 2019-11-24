@@ -2,31 +2,51 @@
 
 ---
 
-### Category Name 1 
+### Processing using Google Earth Engine 
+
+add text
 
 [Accessibility Mapping Tool](/pages/accessibility)
+
+Making scientific research more accessible by lowering the knowledge barrier for interacting with the results
+
 <img src="images/accessibility/access-mapper.PNG?raw=true"/>
 
 ---
 [Mapping paddy rice growth in Google Earth Engine](/pages/rice)
+
+Implementing complex processing chains on raster data, using Google Earth Engine to vastly increase the feasible scope of analysis
+
 <img src="images/rice/rice_crop.png?raw=true"/>
 
 ---
+
+### High-performance raster data processing
+
+---
+
 [Gapfilling planetary-scale raster datasets](/pages/gapfilling)
+
+High-performance Python implementation of large scale raster processing algorithms
+
 <img src="images/gapfilling/tsi_lst_gapfilled.png?raw=true"/>
 
 ---
 
-### Category Name 2
+[Writing Performant Raster Processing Code](https://github.com/harry-gibson/raster-processing-theory)
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+A training presentation given to colleagues, introducing computer-science concepts 
+   relevant to writing high-performance code for processing raster datasets
 
 ---
 
+- [Project 2 Title](http://example.com/)
+
+---
+
+### Older work
+
+[Exploring river catchments](/pages/ceh-esri)
 
 
 

@@ -2,7 +2,7 @@
 
 #### *Creation of an interactive public tool for generating accessibility maps*
 
-<img src="images/accessibility/Accessibility_World_BLK.png?raw=true"/>
+<img src="../images/accessibility/Accessibility_World_BLK.png?raw=true"/>
 
 **Accessibility Maps** 
 

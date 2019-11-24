@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Accessibility Mapping Tool](/accessibility)
+[Accessibility Mapping Tool](_pages/accessibility)
 <img src="images/accessibility/access-mapper.PNG?raw=true"/>
 
 ---

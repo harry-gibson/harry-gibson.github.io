@@ -4,11 +4,11 @@
 
 ### Category Name 1 
 
-[Accessibility Mapping Tool](_pages/accessibility)
+[Accessibility Mapping Tool](/accessibility/)
 <img src="images/accessibility/access-mapper.PNG?raw=true"/>
 
 ---
-[Mapping paddy rice growth in Google Earth Engine](_pages/rice)
+[Mapping paddy rice growth in Google Earth Engine](/rice/)
 <img src="images/rice/rice_crop.png?raw=true"/>
 
 ---

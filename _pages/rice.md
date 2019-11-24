@@ -1,6 +1,7 @@
 ---
-permalink: "/rice/"
+permalink: "/pages/rice"
 ---
+
 ## Paddy Rice Mapping
 
 #### *Implementation of complex algorithms in Google Earth Engine for analysis of MODIS data*

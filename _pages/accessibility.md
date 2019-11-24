@@ -1,5 +1,5 @@
 ---
-permalink: "/accessibility/"
+permalink: "/pages/accessibility"
 ---
 
 ## Accessibility Mapping Tool

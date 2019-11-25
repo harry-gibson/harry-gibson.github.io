@@ -47,7 +47,8 @@ Because of how the information is structured in these surveys, with different qu
 
 The FME workbench which generates and executes the SQL files, and samples of the output it produces, can be found in <a href="https://github.com/harry-gibson/dhs-fever-seeking-treatment" target="_blank">this repository</a>.
 
-This work has been regularly updated since the 2016 publication and it now forms a key part of the malaria modelling in the <a href="http://www.healthdata.org/gbd" target="_blank">Global Burden of Disease</a>study.
+This work has been regularly updated since the 2016 publication and it now forms a key part of the malaria modelling in the <a href="http://www.healthdata.org/gbd" target="_blank">Global Burden of Disease</a> study.
+
 ---
 ### DHS Indicator Data reverse-engineering
 

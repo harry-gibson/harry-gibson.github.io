@@ -14,10 +14,10 @@ This modelling in turn will need covariate datasets to support it. I performed a
 
 <img src="../images/seasonality/bimodal_regions_africa.png?raw=true"/> 
 
-The basic method is taken from <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-11-00157.1" target="_blank">Liebman et al (2012)</a> and consists of creating annual and twice-annual harmonic variables. We then fit a regression model between the rainfall data and each of these harmonic variables, and compare the extent to which they each fit: e.g. areas with one distinct wet season will have a better fit to the annual harmonic variable. Areas without a good fit to either variable are likely not to have distinct wet seasons.
+The basic method is taken from <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-11-00157.1" target="_blank">Liebmann et al (2012)</a> and consists of creating annual and twice-annual harmonic variables. We then fit a regression model between the rainfall data and each of these harmonic variables, and compare the extent to which they each fit: e.g. areas with one distinct wet season will have a better fit to the annual harmonic variable. Areas without a good fit to either variable are likely not to have distinct wet seasons.
 
 <img src="../images/seasonality/ee-chart.png?raw=true"/> 
 
-One advantage of Google Earth Engine is that a range of different precipitation datasets are readily available. The example shown here uses the CHIRPS dataset, which is valuable as it has a long period of record. The results can be explored in this Earth Engine App, or the code can be viewed here (requires login).
+One advantage of Google Earth Engine is that a range of different precipitation datasets are readily available. The example shown here uses the <a href="https://www.chc.ucsb.edu/data/chirps" target="_blank">CHIRPS dataset</a>, which is valuable as it has a long period of record. The results can be explored in this Earth Engine App, or the code can be viewed here (requires login).
 
-This helps in assessing which areas have one distinct wet season, vs. having two or more wet seasons or with rainfall more-or-less evenly distributed through the year; this can be compared to patterns observed in the seasonality of malaria incidence data.
+This helps in identifying areas likely to have one distinct wet season, vs. having two or more wet seasons or having rainfall more-or-less evenly distributed through the year. This in turn can be compared to patterns observed in the seasonality of malaria incidence data.

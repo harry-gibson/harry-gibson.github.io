@@ -4,7 +4,7 @@ permalink: "/pages/dhs-survey-data"
 
 ## Demographic and Health Survey data processing
 
-#### *Reverse-engineering and recovering the relational structure of pubished survey data to transform the feasible scops of analysis*
+#### *Reverse-engineering and recovering the relational structure of published survey data to transform the feasible scope of analysis*
 
 ### About the work
 The <a href="https://www.dhsprogram.com/" target="_blank">Demographic and Health Surveys (DHS) Program</a> is a US-based and funded organisation that conducts large-scale household surveys and makes the data available for research. Surveys are conducted around the developing world, from Afghanistan to Zimbabwe.
@@ -31,7 +31,7 @@ This work has meant that we in MAP can run extractions from the DHS database acr
 
 This study, <a href='https://www.nature.com/articles/s41586-019-1050-5' target='_blank'>published in Nature in 2019</a>, models the prevalence of "improved" housing (that is, housing made from durable materials, with clean water and sanitation and sufficient space) across Africa over time. 
 
-The study was enabled by DHS data from 62 separate surveys across sub-saharan Africa. Based on the relational database I had reconstructed, from each survey I extracted information on household construction, sanitation, and size, and collated this into a single coherent dataset for use in the geostatistical modelling.
+The study was enabled by DHS data I extracted from 62 separate surveys across sub-saharan Africa. Based on the relational database I had reconstructed, from each survey I extracted information on household construction, sanitation, and size, and collated this into a single coherent dataset for use in the geostatistical modelling.
 
 ---
 ### Treatment seeking rates in malaria endemic countries.
@@ -47,16 +47,15 @@ Because of how the information is structured in these surveys, with different qu
 
 The FME workbench which generates and executes the SQL files, and samples of the output it produces, can be found in <a href="https://github.com/harry-gibson/dhs-fever-seeking-treatment" target="_blank">this repository</a>.
 
+This work has been regularly updated since the 2016 publication and it now forms a key part of the malaria modelling in the <a href="http://www.healthdata.org/gbd" target="_blank">Global Burden of Disease</a>study.
 ---
 ### DHS Indicator Data reverse-engineering
 
-The DHS publish a large number of "indicators" which are summaries of their data, aggregated to the national or subnational (regional) level. These are intended to provide a way of comparing information across surveys, as they are available in one place for a large number of the surveys. 
+The DHS publish a large number of "indicators" which are summaries of their data, aggregated to the national or subnational (regional) level. These are intended to provide a way of comparing information across surveys, as they are available in one place for a large number of the surveys, and can be downloaded through sources such as <a href="https://www.statcompiler.com/en/" target="_blank">STATcompiler</a>.
 
-However as these indicators are aggregations they are not helpful for fine-scale spatial modelling. My work on producing a relational database of the raw survey data which can then be queried across surveys enables calculation of the indicators at the cluster (point) level.
+However as these indicators are aggregations they are not helpful for fine-scale spatial modelling. Although the DHS calculate the aggregated indicators themselves, they did not have the means to do so at a cluster level, and so the DHS asked us to do this on their behalf.
 
-Although the DHS calculate the aggregated indicators themselves, they did not have the means to do so at a cluster level, and so the DHS asked us to do this on their behalf.
-
-I reverse-engineered and calculated a number of their indicators at the cluster level. The code I produced is available in <a href="https://github.com/malaria-atlas-project/DHS-Indicators" target="_blank">this repository</a>. 
+My work on producing a relational database of the raw survey data which can then be queried across surveys enables calculation of the indicators at the cluster (point) level, and so I reverse-engineered and calculated a number of their indicators at the cluster level. The code I produced is available in <a href="https://github.com/malaria-atlas-project/DHS-Indicators" target="_blank">this repository</a>. 
 
 These point estimates were then used in a geostatistical model to produce pixel-level continuous estimates for those indicators. Those pixel-level maps are now published by the DHS themselves on their <a href="http://spatialdata.dhsprogram.com/modeled-surfaces/" target="_blank">Spatial Data Repository</a>
 

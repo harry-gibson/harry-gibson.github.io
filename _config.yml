@@ -8,6 +8,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/harry-gibson-b1854924/" target="_blank">LinkedIn Profile</a> | 
   <a href="https://www.researchgate.net/profile/Harry_Gibson2" target="_blank">ResearchGate</a>
   
-theme: jekyll-theme-minimal
+theme: jekyll-theme-leap-day
 google_analytics: UA-153224943-1 # your Google Analytics tracking ID here
 include: ['_pages']

@@ -2,6 +2,7 @@
 permalink: "/pages/about"
 description: "About me desc"
 title: "About me"
+layout: default
 ---
 
 ### ABOUT 

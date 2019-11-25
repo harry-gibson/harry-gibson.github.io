@@ -53,7 +53,7 @@ I don't just use raster data, or even geospatial data, in my work. We use raster
 
 **<a href="https://github.com/harry-gibson/js2shapefile" target="_blank">Creating shapefiles in Javascript</a>**
 <br>
-Way back in 2012 I was working at the Centre for Ecology and Hydrology, in the National River Flow Archive. I created a <a href="https://github.com/harry-gibson/racquel" target="_blank">Javascript application</a> using the <a href="https://developers.arcgis.com/javascript/" target="_blank">ESRI Javascript API</a> and ArcGIS Server, to allow colleagues to interact with the wealth of geospatial data we held about UK river catchments.
+Way back in 2012 I was working at the <a href="https://www.ceh.ac.uk/" target="_blank">Centre for Ecology and Hydrology</a>, in the <a href="https://nrfa.ceh.ac.uk/" target="_blank">National River Flow Archive</a>. I created a <a href="https://github.com/harry-gibson/racquel" target="_blank">Javascript application</a> using the <a href="https://developers.arcgis.com/javascript/" target="_blank">ESRI Javascript API</a> and ArcGIS Server, to allow colleagues to interact with the wealth of geospatial data we held about UK river catchments.
 
 Perhaps the most interesting part about this was the <a href="https://github.com/harry-gibson/js2shapefile" target="_blank">JS2Shapefile</a> library I wrote. This used the nascent ability of browsers of the day to work with binary data, to create shapefiles directly in the browser from features displayed on the web map. There's definitely better ways of doing this now, but I think it's interesting to see what could be done that long ago!
 

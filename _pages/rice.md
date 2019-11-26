@@ -16,4 +16,4 @@ Such data are not often available at the fine spatial scales needed and so after
 
 Due to the very large amount of data that would need to be processed to run this model for each year of the MODIS period of record, this was an excellent candidate for <a href="https://earthengine.google.com/" target="_blank">Google Earth Engine</a>. Expressing the algorithm in the functional style used by Earth Engine took quite a lot of thought!
 
-<a href="https://code.earthengine.google.com/dd88e851bfb3ff554654544b917b37b3" target="_blank">View the code</a> and run the model in the Earth Engine code editor (requires an Earth Engine account).
+<a href="https://code.earthengine.google.com/dd88e851bfb3ff554654544b917b37b3" target="_blank">View the code</a> and run the model in the Earth Engine code editor (requires an Earth Engine account; if you don't have access then you can view a snapshot of the code [here](../code/rice_snapshot.js)).

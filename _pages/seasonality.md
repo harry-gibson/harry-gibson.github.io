@@ -18,11 +18,11 @@ The basic method is taken from <a href="https://journals.ametsoc.org/doi/10.1175
 
 The Earth Engine code for this analysis can be viewed 
 <a href="https://code.earthengine.google.com/80f0fd74e01c83fa002b878d5c34f6e2" target="_blank">
-here</a> (you need to have access to Earth Engine to view).
+here</a> (you need to have access to Earth Engine to view - if you don't then you can see a snapshot [here](../code/seasonality_harmonics_snapshot.js)).
 
 <img src="../images/seasonality/ee-chart.png?raw=true"/> 
 
-Having identified the areas with a single wet season, next we find the time of year that the wet season begins. I implemented the algorithm from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/2007JCLI1762.1" target="_blank">Liebmann et al (2008)</a> with <a href="https://code.earthengine.google.com/b1beb30075deda24a6482bf77acd6e8a" target="_blank">this code</a> (Earth Engine access required), which demonstrates use of array pixels to effectively attach metadata to individual pixels within an analysis in Earth Engine.
+Having identified the areas with a single wet season, next we find the time of year that the wet season begins. I implemented the algorithm from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/2007JCLI1762.1" target="_blank">Liebmann et al (2008)</a> with <a href="https://code.earthengine.google.com/b1beb30075deda24a6482bf77acd6e8a" target="_blank">this code</a> (Earth Engine access required - view a snapshot [here](../code/seasonality_wet_season_snapshot.js) if no access), which demonstrates use of array pixels to effectively attach metadata to individual pixels within an analysis in Earth Engine.
 
 One advantage of Google Earth Engine is that a range of different precipitation datasets are readily available. The example shown here uses the <a href="https://www.chc.ucsb.edu/data/chirps" target="_blank">CHIRPS dataset</a>, which is valuable as it has a long period of record. The results can be explored in this Earth Engine App, or the code can be viewed here (requires login).
 

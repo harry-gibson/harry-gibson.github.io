@@ -1,3 +1,6 @@
+<a href="javascript:history.back()">Go Back</a>
+
+```js
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/
 var mod09a1_full = ee.ImageCollection("MODIS/006/MOD09A1"),
     gTopo30 = ee.Image("USGS/GTOPO30"),
@@ -500,3 +503,4 @@ var riceYr = ee.Image(riceRiceBaby.filterDate(ee.Date.fromYMD(YEAR,1,1), ee.Date
   .reduce(ee.Reducer.anyNonZero()));
 print ("Rice estimate for "+YEAR, riceYr);
 Map.addLayer(riceYr.updateMask(riceYr), {palette:['000000', 'FF0000']}, "rice-"+YEAR);
+```

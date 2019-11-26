@@ -1,9 +1,11 @@
 # Portfolio
 
+#### *A few of my most interesting pieces of work*
+
 ---
 
-## Processing using Google Earth Engine 
-I've spent quite a bit of time over the last few years working with Google Earth Engine. It's an incredible resource for obtaining and analysing remotely-sensed data as well as publishing analyses. This section lists just a few of the most interesting pieces of work I've done with it.
+## Remote Sensing and Google Earth Engine 
+I've spent quite a bit of time over the last few years working with <a href="https://earthengine.google.com" target="_blank">Google Earth Engine</a>. It's really sparked my interest in remote sensing and is an incredible resource for working with the massive data volumes involved, as well as for publishing analyses. This section lists just a few of the most interesting pieces of work I've done with it.
 
 ---
 

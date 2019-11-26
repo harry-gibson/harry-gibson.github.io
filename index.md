@@ -24,6 +24,9 @@ I've spent quite a bit of time over the last few years working with <a href="htt
 **[Investigating seasonality of rainfall in Google Earth Engine](/pages/seasonality)**
 <br>Quickly processing very large source datasets to produce maps characterising continental-scale patterns of rainfall, supporting modelling of malaria seasonality
 
+<img src="images/seasonality/single_season_onset_africa.png">
+<br><br>
+
 ---
 
 ## High-performance raster data processing
@@ -40,6 +43,7 @@ More often than not I write the algorithms needed using Cython, an extension to 
 <br>
 A training presentation given to colleagues, introducing computer-science concepts 
    relevant to writing high-performance code for processing raster datasets
+<br><br>
 
 ---
 
@@ -48,6 +52,7 @@ I don't just use raster data, or even geospatial data, in my work. We use raster
 
 **[Demographic and Health Survey data](/pages/dhs-survey-data)**
 <br>Making it possible to process the whole body of DHS survey data enabling more and better usage of the data across our research
+<br><br>
 
 ---
 

@@ -1,4 +1,6 @@
-<a href="javascript:history.back()">Go Back</a>
+This is a snapshot of some code from the Google Earth Engine code editor. It's much better viewed there. 
+
+<a href="javascript:history.back()">Go Back</a> or <a href="rice_snapshot_raw.js">view raw</a>
 
 ```js
 /**** Start of imports. If edited, may not auto-convert in the playground. ****/

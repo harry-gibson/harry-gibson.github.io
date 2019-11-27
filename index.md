@@ -56,6 +56,15 @@ I don't just use raster data, or even geospatial data, in my work. We use raster
 
 ---
 
+## Outreach
+
+**[Web mapping applications for science communication](/pages/online-tools)**
+
+Creating a rich, interactive web mapping presentation to accompany the launch of a major publication
+
+<img src="images/agol/story-map-temporal-crop.png?raw=true"/>
+
+---
 ## Older work
 
 **<a href="https://github.com/harry-gibson/js2shapefile" target="_blank">Creating shapefiles in Javascript</a>**

@@ -4,9 +4,11 @@ permalink: "/pages/online-tools"
 
 ## Making Research Accessible
 
-#### Publicising research outputs through interactive web mapping applications
+#### *Publicising research outputs through interactive web mapping applications*
 
-In 2015, colleagues in the Malaria Atlas Project <a href="http://www.nature.com/doifinder/10.1038/nature15535" target=_blank>published in Nature</a> a landmark paper quantifying the changes in malaria burden in Africa since 2000, and showing how the reduction in cases since then can be attributed to "intervention" efforts, such as the widespread distribution of mosquito bednets. 
+<img src="../images/agol/story-map.png?raw=true"/>
+
+In 2015, colleagues in the Malaria Atlas Project <a href="http://www.nature.com/doifinder/10.1038/nature15535" target="_blank">published in Nature</a> a landmark paper quantifying the changes in malaria burden in Africa since 2000, and showing how the reduction in cases since then can be attributed to "intervention" efforts, such as the widespread distribution of mosquito bednets. 
 
 This paper caused great interest, particularly due to the headline grabbing figure that 663 million cases of malaria had been averted by these interventions since 2000.
 

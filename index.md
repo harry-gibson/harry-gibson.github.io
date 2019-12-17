@@ -54,8 +54,8 @@ However I also have extensive experience in designing and implementing advanced 
 
 **[Generation of a national Continuous Defence Line for flood modelling](/pages/fme.md)**
 <br>Using FME to design and implement a complex geoprocessing workflow for the automation of a major GIS editing and integration task
+
 <img src="images/cdl/fme_generic_illustration_3.png?raw=true"/>
-<br><br>
 
 ---
 ## Other data processing and extraction

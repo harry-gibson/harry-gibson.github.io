@@ -6,7 +6,7 @@ permalink: "/pages/fme"
 
 #### *Using FME to implement complex geoprocessing workflows*
 
-FME (Feature Manipulation Engine) is a piece of software produced by <a href="https://www.safe.com/" target="_blank">Safe Software</a>. It is what's known as an ETL tool (Extract, Transform, and Load), which is a generic term for a tool that allows reading ("Extract") of data in one format, manipulation of the data ("Transform"), and then writing the data to (potentially) a different format ("Load"). The point of an ETL tool is to define a workflow that gets data from where it is, to where you want it, and once a workflow has been designed for a particular task it can be run repeatedly as new data or updates are produced.
+FME (Feature Manipulation Engine, produced by <a href="https://www.safe.com/" target="_blank">Safe Software</a>), is what's known as an ETL (Extract, Transform, and Load) tool. This is a generic term for a tool that allows reading ("Extract") of data  in one format, manipulation of the data ("Transform"), and then writing the data to (potentially) a different format ("Load"). The point of an ETL tool is to define a workflow that gets data from where it is, to where you want it, and once a workflow has been designed for a particular task it can be run repeatedly as new data or updates are produced.
 
 <img src="../images/cdl/fme_generic_illustration_2.png?raw=true"/>
 
@@ -27,5 +27,7 @@ This involved some lateral thinking. I realised that if we could create a "<a hr
 All of this was also implemented in FME. First I created the connected graph from the pre-processed lines, by breaking them at every intersection and then creating a <a href="https://en.wikipedia.org/wiki/Delaunay_triangulation" target="_blank">Delaunay Triangulation</a> (a TIN, for GIS people) of all the end points. Unnecessary edges were then removed, and the remaining ones were put into the mix along with all the flood defence lines, river banks, etc, but with a very high "cost" for the shortest-path finder. Next the top and bottom of each continuous "piece" of river were identified and from this, the start and end points for each Continuous Defence Line. Finally, Dijkstra's Algorithm was used to find the best route from start to end point.
 
 <img src="../images/cdl/cdl-choices-2.png?raw=true"/>
+
+Because the rules about how the different lines should be combined and selected were the same everywhere, the same FME workflow could be used to process the data and produce the initial CDL across every river in England, despite the great variety in their characters. The output from the FME process could then be passed to the environmental managers who then had the much smaller task of making specific local corrections to the initial CDL, to encompass any particular local knowledge or rules.
 
 This project was a fairly extreme example of the types of spatial data processing that can be done in FME. I presented the work at the FME World Tour user conference in London in 2014. The slides can be found [here](../other/FME_Continuous_Defence_Line_Presentation.pptx) and contain a lot more explanation and illustrations of this interesting project.

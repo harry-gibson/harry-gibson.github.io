@@ -52,7 +52,7 @@ In my current role I primarily work with raster-format geospatial data, as that 
 
 However I also have extensive experience in designing and implementing advanced geoprocessing workflows for vector-format geospatial data and my computer science background allows me to think laterally about appropriate algorithms for many tasks, whether or not they are available in the toolboxes of off-the-shelf GIS software. As well as writing these from scratch and using desktop GIS software, I have for many years been an expert user of FME (Feature Manipulation Engine) for this and many other purposes.
 
-**[Generation of a national Continuous Defence Line for flood modelling](/pages/fme.md)**
+**[Generation of a national Continuous Defence Line for flood modelling](/pages/fme)**
 <br>Using FME to design and implement a complex geoprocessing workflow for the automation of a major GIS editing and integration task
 
 <img src="images/cdl/fme_generic_illustration_3.png?raw=true"/>

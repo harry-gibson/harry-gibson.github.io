@@ -23,4 +23,4 @@ I'm working at the <a href="https://map.ox.ac.uk/" target="_blank">Malaria Atlas
 
 I'm the halfway point in our group between the academic researchers and statisticians, and the full-time developers. I figure out what data support the academics need to get their work done, and how to produce it for them.
 
-I'm based in North Oxfordshire, and am always keen to hear of new opportunities. Please <a href="mailto:harry.s.gibson@gmail.com">get in touch</a>! <!--You can download a PDF of my CV [here](pdf/harry_gibson_cv.pdf).-->
+I'm based in North Oxfordshire, and am always keen to hear of new opportunities. Please <a href="mailto:harry.s.gibson@gmail.com">get in touch</a>! You can download a PDF of my CV [here](../other/cv_Harry_Gibson_online.pdf).

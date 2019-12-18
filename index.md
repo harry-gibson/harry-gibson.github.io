@@ -1,6 +1,6 @@
 # Portfolio
 
-#### *A few of my most interesting pieces of work*
+Hi! I'm Harry Gibson, a geospatial software developer from Oxfordshire, UK. This site describes some of my most interesting pieces of work. You can find out more about me [here](/pages/about) - please get in touch if you'd like to know more about anything you read here.
 
 ---
 

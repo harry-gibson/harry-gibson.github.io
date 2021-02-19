@@ -20,7 +20,7 @@ The challenge we face is processing the raw data from hundreds of surveys in suc
 ### What I did
 Alongside the "recode" data, which is available in flat-file formats such as Stata and SPSS, a further download format is available which DHS call a "hierarchical format". It turns out that these data are in the native format of the <a href='https://www.census.gov/data/software/cspro.html' target='_blank'>CSPro survey application</a> and they split the data into many logically consistent and more manageable tables. 
 
-I reverse-engineered this format, and wrote Python code which takes these data files and splits them into the individual tables. I further determined that once loaded to a relational database these tables can consistently be joined to one another to enable arbitrary queries to be constructed to extract whatever information is necessary. The code I wrote to obtain and pre-process the data into a relational database can all be found in <a href='https://github.com/malaria-atlas-project/DHS-DataExtraction/tree/master/DHS_Preprocess_And_Ingestion' target='_blank'>this repository</a>.
+I reverse-engineered this format, and wrote Python code which takes these data files and splits them into the individual tables. I further determined that once loaded to a relational database these tables can consistently be joined to one another to enable arbitrary queries to be constructed to extract whatever information is necessary. The code I wrote to obtain and pre-process the data into a relational database can all be found in <a href='https://github.com/harry-gibson/DHS-To-Database/' target='_blank'>this repository</a>.
 
 This work has meant that we in MAP can run extractions from the DHS database across all their surveys with relative ease. This has enabled a lot of new research, which has led to numerous important publications. A few recent examples include:
 
@@ -32,6 +32,8 @@ This work has meant that we in MAP can run extractions from the DHS database acr
 This study, <a href='https://www.nature.com/articles/s41586-019-1050-5' target='_blank'>published in Nature in 2019</a>, models the prevalence of "improved" housing (that is, housing made from durable materials, with clean water and sanitation and sufficient space) across Africa over time. 
 
 The study was enabled by DHS data I extracted from 62 separate surveys across sub-saharan Africa. Based on the relational database I had reconstructed, from each survey I extracted information on household construction, sanitation, and size, and collated this into a single coherent dataset for use in the geostatistical modelling.
+
+This study forms part of a series investigating housing quality, wealth factors, and the relationship they have with childhood health outcomes. The code I wrote for extracting the datasets used in all of these studies, along with further description, can be found <a href="https://github.com/harry-gibson/DHS-Data-Extractions/tree/main/Building_Quality_And_Child_Health" target="_blank">here</a>.
 
 ---
 ### Treatment seeking rates in malaria endemic countries.
@@ -45,7 +47,7 @@ Because of how the information is structured in these surveys, with different qu
 - Next this table is used to generate SQL code specific to each survey. An FME workbench was used to read the table and write the SQL.
 - The SQL was then executed for each survey in turn, producing consistent outputs for the modellers
 
-The FME workbench which generates and executes the SQL files, and samples of the output it produces, can be found in <a href="https://github.com/harry-gibson/dhs-fever-seeking-treatment" target="_blank">this repository</a>.
+The FME workbench which generates and executes the SQL files, and samples of the output it produces, can be found <a href="https://github.com/harry-gibson/DHS-Data-Extractions/tree/main/Fever_Seeking_Treatment" target="_blank">here</a>.
 
 This work has been regularly updated since the 2016 publication and it now forms a key part of the malaria modelling in the <a href="http://www.healthdata.org/gbd" target="_blank">Global Burden of Disease</a> study.
 
@@ -56,7 +58,7 @@ The DHS publish a large number of "indicators" which are summaries of their data
 
 However as these indicators are aggregations they are not helpful for fine-scale spatial modelling. Although the DHS calculate the aggregated indicators themselves, they did not have the means to do so at a cluster level, and so the DHS asked us to do this on their behalf.
 
-My work on producing a relational database of the raw survey data which can then be queried across surveys enables calculation of the indicators at the cluster (point) level, and so I reverse-engineered and calculated a number of their indicators at the cluster level. The code I produced is available in <a href="https://github.com/malaria-atlas-project/DHS-Indicators" target="_blank">this repository</a>. 
+My work on producing a relational database of the raw survey data which can then be queried across surveys enables calculation of the indicators at the cluster (point) level, and so I reverse-engineered and calculated a number of their indicators at the cluster level. The code I produced is available in <a href="https://github.com/harry-gibson/DHS-Data-Extractions/tree/main/DHS_Indicator_Recreation" target="_blank">this folder</a>. 
 
 These point estimates were then used in a geostatistical model to produce pixel-level continuous estimates for those indicators. Those pixel-level maps are now published by the DHS themselves on their <a href="http://spatialdata.dhsprogram.com/modeled-surfaces/" target="_blank">Spatial Data Repository</a>
 
